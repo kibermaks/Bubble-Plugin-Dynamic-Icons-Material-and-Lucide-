@@ -1,0 +1,135 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "autobinding_value": "text",
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 32,
+        "width": 32
+    },
+    "display": "Dynamic Icon - Lucide",
+    "events": {
+        "AAO": {
+            "caption": "is clicked",
+            "name": "clicked"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "To explore all supported icon names, visit lucide.dev/icons.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Icon Name",
+            "default_val": "image",
+            "editor": "DynamicValue",
+            "name": "icon_name",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Icon Color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "icon_color",
+            "rank": 3
+        },
+        "AAG": {
+            "caption": "Icon Stroke",
+            "default_val": 2,
+            "editor": "DynamicValue",
+            "name": "icon_stroke",
+            "rank": 7,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "Icon Size",
+            "default_val": 24,
+            "editor": "DynamicValue",
+            "name": "icon_width",
+            "optional": false,
+            "rank": 6,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Tooltip",
+            "doc": "What to show if icon is hovered. Supports multiline and doesn't support bb-code or RTF.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "tooltip",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Filled?",
+            "default_val": false,
+            "editor": "Checkbox",
+            "in_style": false,
+            "name": "is_icon_filled",
+            "rank": 4
+        },
+        "AAK": {
+            "caption": "Icon Filled Color",
+            "default_val": "rgba(0,0,0,1)",
+            "doc": "If blank - Icon Color will be used.",
+            "editor": "Color",
+            "in_style": false,
+            "name": "icon_filled_color",
+            "optional": false,
+            "rank": 5
+        },
+        "AAN": {
+            "caption": "Icon Position",
+            "default_val": "Middle-center",
+            "editor": "Dropdown",
+            "name": "icon_position",
+            "options": "Top-left,Top-center,Top-right,Middle-left,Middle-center,Middle-right,Bottom-left,Bottom-center,Bottom-right",
+            "rank": 2
+        },
+        "AAP": {
+            "caption": "Isn't Clickable",
+            "default_val": false,
+            "doc": "If checked - avoids triggering of the Clicked event and changing cursor style.",
+            "editor": "DynamicValue",
+            "name": "is_not_clickable",
+            "rank": 9,
+            "value": "boolean"
+        },
+        "AAR": {
+            "caption": "Fallback Icon Name*",
+            "default_val": "image",
+            "doc": "*Works only in Bubble Editor",
+            "editor": "DynamicValue",
+            "name": "fallback_icon_name",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-image",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": false,
+        "resizable": true
+    },
+    "states": {
+        "AAT": {
+            "caption": "Icon Name",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\treturn properties.icon_name;\n}"
+            },
+            "name": "icon_name",
+            "value": "text"
+        }
+    },
+    "support_autobinding": false
+}

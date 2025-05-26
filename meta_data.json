@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "mobile",
+        "1": "technical",
+        "2": "containers",
+        "3": "image",
+        "4": "productivity"
+    },
+    "data_tracked": false,
+    "demo_page": "https://dynamic-icon-pro-test-app.bubbleapps.io/version-test",
+    "description": "From interface essentials to expressive visuals, Dynamic Icons brings powerful, flexible icon rendering to your Bubble projects. Now supporting both Lucide Icons and Google Material Icons(Symbols) – 1550+ and 3600+ icons respectively – this plugin gives you complete control over icon content, style, and interaction – even dynamically at runtime.\n\nDynamically define icon using dynamic expressions. Seamlessly change icons in real time based on workflows, data, or user behavior – no page reloads or complex workarounds.\n🔁 Switch icons dynamically with data or conditions\n🎨 Customize size, color, stroke, weight, and positioning\n🧩 Supports both Lucide.dev and Google Material Symbols\n⚡️ Great for icons, toggles, state indicators, buttons, and graphics in general\n💡 Smooth editor integration with Bubble dynamic data expressions\n\nEditor: \nhttps://bubble.io/page?id=dynamic-icon-pro-test-app\n\nDemo page:\nhttps://dynamic-icon-pro-test-app.bubbleapps.io/version-test",
+    "image": "//meta-q.cdn.bubble.io/f1747849536868x362329068274200450/Dynamic%20Icons.png",
+    "license": "open_source",
+    "link": "https://bubble.io/page?id=dynamic-icon-pro-test-app",
+    "name": "Dynamic Icons (Material and Lucide)",
+    "plugin_instructions": "From interface essentials to expressive visuals, Dynamic Icons brings powerful, flexible icon rendering to your Bubble projects. Now supporting both Lucide Icons and Google Material Icons(Symbols) – 1550+ and 3600+ icons respectively – this plugin gives you complete control over icon content, style, and interaction – even dynamically at runtime.\n\nDynamically define icon using dynamic expressions. Seamlessly change icons in real time based on workflows, data, or user behavior – no page reloads or complex workarounds.\n🔁 Switch icons dynamically with data or conditions\n🎨 Customize size, color, stroke, weight, and positioning\n🧩 Supports both Lucide.dev and Google Material Symbols\n⚡️ Great for icons, toggles, state indicators, buttons, and graphics in general\n💡 Smooth editor integration with Bubble dynamic data expressions\n\nEditor: \nhttps://bubble.io/page?id=dynamic-icon-pro-test-app\n\nDemo page:\nhttps://dynamic-icon-pro-test-app.bubbleapps.io/version-test"
+}
